@@ -16,29 +16,29 @@ This is the code that, when run in R, will output a .csv file for recruit data b
 
 ##recruit_data_final.csv
 This is the final output for the 2010-2019 recruiting classes for all 50 states and DC, including players that signed and did not sign. The variables included are as follows:
-class: player's recruiting class
-name: player's name
-school: player's high school
-city: player's hometown
-state: player's home state
-position: player's recruited position 
-height_in: player's height in inches
-weight: player's weight
-star_ct: player's star rating according to 247 composite rank
-composite_rtg: player's 247 composite rating
-nat_rk: player's overall rank in their recruiting class
-pos_rk: player's overall rank at their position
-st_rk: player's overall rank in their state
-interest: displays number of schools a player has interest in if not committed
-commit_link: variable used to merge recruit data with their college data
-cs_class_rk: recruiting class rank of the college that the player committed to
-commit_school: college that the player committed to 
-cs_city: city of the college that the player committed to
-cs_state: state of the college that the player committed to
-cs_division: NCAA division of the college that the player committed to
-cs_level: D1 level of the college that the player committed to (if applicable)
-cs_conference: conference of the college that the player committed to
-cs_conf_div: division in the conference of the college that the player committed to
+class: player's recruiting class;
+name: player's name;
+school: player's high school;
+city: player's hometown;
+state: player's home state;
+position: player's recruited position;
+height_in: player's height in inches;
+weight: player's weight;
+star_ct: player's star rating according to 247 composite rank;
+composite_rtg: player's 247 composite rating;
+nat_rk: player's overall rank in their recruiting class;
+pos_rk: player's overall rank at their position;
+st_rk: player's overall rank in their state;
+interest: displays number of schools a player has interest in if not committed;
+commit_link: variable used to merge recruit data with their college data;
+cs_class_rk: recruiting class rank of the college that the player committed to;
+commit_school: college that the player committed to;
+cs_city: city of the college that the player committed to;
+cs_state: state of the college that the player committed to;
+cs_division: NCAA division of the college that the player committed to;
+cs_level: D1 level of the college that the player committed to (if applicable);
+cs_conference: conference of the college that the player committed to;
+cs_conf_div: division in the conference of the college that the player committed to;
 cs_power_conf: binary variable designating whether the school is part of the Power 5
 
 ##school_data_final.csv
